@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">widget</string>
+
+    <string name="net_overtime">网络连接超时</string>
+</resources>

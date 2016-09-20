@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#12B7F5</color>
+    <color name="colorPrimaryDark">#12B7F5</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="app_back">#F5F5F5</color>
+    <color name="back">#444444</color>
+
+    <color name="round_color">#7fffffff</color>
+    <color name="wenzi_color">#101010</color>
+
+    <color name="white_false">#50ffffff</color> <!-- 暗灰色 -->
+
+    <color name="attestation_false_bg">#EB4528</color>
+    <color name="attestation_true_bg">#8BC34A</color>
+
+</resources>
