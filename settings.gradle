@@ -1,1 +1,1 @@
-include ':frame', ':myapplication'
+include ':frame', ':test'
