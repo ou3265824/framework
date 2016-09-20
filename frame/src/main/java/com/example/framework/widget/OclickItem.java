@@ -13,7 +13,7 @@ import com.example.framework.R;
 /**
  * Created by Administrator on 2016/8/8 0008.
  */
-public class Oclick_Item extends LinearLayout{
+public class OclickItem extends LinearLayout{
 
     private Context mContext;
     private View view;
@@ -23,20 +23,20 @@ public class Oclick_Item extends LinearLayout{
     private String number;
     private TextView tv_item_number;
 
-    public Oclick_Item(Context context) {
+    public OclickItem(Context context) {
         super(context);
         mContext=context;
         getView();
     }
 
-    public Oclick_Item(Context context, AttributeSet attrs) {
+    public OclickItem(Context context, AttributeSet attrs) {
         super(context, attrs);
         mContext=context;
         getStyledAttributes(attrs);
         getView();
     }
 
-    public Oclick_Item(Context context, AttributeSet attrs, int defStyleAttr) {
+    public OclickItem(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mContext=context;
         getStyledAttributes(attrs);

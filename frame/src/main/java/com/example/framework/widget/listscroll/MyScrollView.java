@@ -1,4 +1,4 @@
-package com.example.framework.widget;
+package com.example.framework.widget.listscroll;
 
 import android.content.Context;
 import android.util.AttributeSet;

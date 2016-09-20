@@ -7,10 +7,10 @@
               android:orientation="vertical"
     >
 
-    <com.example.framework.widget.Top_Title
+    <com.example.framework.widget.title.TopTitle
         android:id="@+id/toolbar_top"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></com.example.framework.widget.Top_Title>
+        android:layout_height="wrap_content"></com.example.framework.widget.title.TopTitle>
 
 
     <LinearLayout

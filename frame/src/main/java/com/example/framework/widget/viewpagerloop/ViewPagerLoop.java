@@ -1,4 +1,4 @@
-package com.example.framework.widget;
+package com.example.framework.widget.viewpagerloop;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -26,9 +26,9 @@ import com.example.framework.http.ImageManager;
 import java.util.List;
 
 /**
- * Created by recker on 16/4/17.
+ * 无限轮播的viewpager
  */
-public class FlyBanner extends RelativeLayout {
+public class ViewPagerLoop extends RelativeLayout {
 
     private static final int RMP = LayoutParams.MATCH_PARENT;
     private static final int RWP = LayoutParams.WRAP_CONTENT;
@@ -83,15 +83,15 @@ public class FlyBanner extends RelativeLayout {
         }
     };
 
-    public FlyBanner(Context context) {
+    public ViewPagerLoop(Context context) {
         this(context, null);
     }
 
-    public FlyBanner(Context context, AttributeSet attrs) {
+    public ViewPagerLoop(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public FlyBanner(Context context, AttributeSet attrs, int defStyleAttr) {
+    public ViewPagerLoop(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         init(context, attrs);

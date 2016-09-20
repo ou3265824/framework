@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 import com.example.framework.R;
 import com.example.framework.mvp.dialog.loading.LoadingView;
 import com.example.framework.utils.ToastUtil;
-import com.example.framework.widget.Top_Title;
+import com.example.framework.widget.title.TopTitle;
 
 import butterknife.ButterKnife;
 
@@ -26,7 +26,7 @@ import butterknife.ButterKnife;
 public abstract class BaseActivity extends AppCompatActivity {
 
 
-    private Top_Title toolbarTop;
+    private TopTitle toolbarTop;
     private LinearLayout body;
 
     /*
@@ -56,7 +56,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         BaseApplication.getInstance().addActivity(this);
         BaseApplication.getInstance().setActivity(this);
         setContentView(R.layout.base_layout);
-        toolbarTop = (Top_Title) findViewById(R.id.toolbar_top);
+        toolbarTop = (TopTitle) findViewById(R.id.toolbar_top);
         body = (LinearLayout) findViewById(R.id.body);
         if(getSupportActionBar()==null){
             setSupportActionBar(toolbarTop.getToolbar());

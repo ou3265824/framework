@@ -1,4 +1,4 @@
-package com.example.framework.widget;
+package com.example.framework.widget.title;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,9 +13,9 @@ import android.widget.TextView;
 import com.example.framework.R;
 
 /**
- * Created by Administrator on 2016/6/8 0008.
+ *
  */
-public class Top_Title extends LinearLayout {
+public class TopTitle extends LinearLayout {
 
 
     private Context mContext;
@@ -27,19 +27,19 @@ public class Top_Title extends LinearLayout {
     private ImageView top_right_image;
     private TextView top_right_text;
 
-    public Top_Title(Context context) {
+    public TopTitle(Context context) {
         super(context);
         mContext = context;
         getView();
     }
 
-    public Top_Title(Context context, AttributeSet attrs) {
+    public TopTitle(Context context, AttributeSet attrs) {
         super(context, attrs);
         mContext = context;
         getView();
     }
 
-    public Top_Title(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TopTitle(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mContext = context;
         getView();
